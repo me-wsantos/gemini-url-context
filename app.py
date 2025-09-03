@@ -1,7 +1,7 @@
 from google import genai
 from google.genai.types import GenerateContentConfig
 
-client = genai.Client(api_key='xxxxxxxxx')
+client = genai.Client(api_key='your-gemini-api-key')
 
 model_id = "gemini-2.5-flash"
 
